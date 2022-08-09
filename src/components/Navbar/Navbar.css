@@ -1,12 +1,19 @@
 .navbar{
-    padding: 1.8rem 0;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background-color:rgb(145, 10, 10);
+    padding: 1rem 0;
+    
 }
+
 .navbar-brand{
+
+    color: white;
     width: 90px;
+ 
 }
 .navbar-brand span{
-    margin-left: 2rem;
+    margin-left: 5rem;
+   font-weight: 600;
+   font-size: ;
 }
 .brand-and-toggler{
     width: 100%;
@@ -16,34 +23,31 @@
     width: 100%;
 }
 .navbar-toggler-btn{
-    transition: var(--transition);
+  
     z-index: 11;
 }
-.navbar-collapse{
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 10;
-    background-color: var(--black-color);
-    height: 100%;
-    width: 280px;
-    display: flex;
-    padding: 10rem 3rem 0 3rem;
-    transform: translatex(100%);
-    transition: var(--transition);
-}
+
 .show-navbar-collapse{
     transform: translateX(0);
 }
-.nav-item{
-    margin-bottom: 1.4rem;
+.login{
+    padding-left:10rem;
+     margin-right: 0px;
 }
-.nav-link{
-    transition: var(--transition);
+.nav-item{
+    display: flex;
+    margin-bottom: 1.4rem;
+
+
+}
+.nav-itemnav-link{
+   
+    color: rgb(255, 255, 255);
 }
 .nav-link:hover{
     color: var(--purple-color);
 }
+
 
 @media screen and (min-width: 992px){
     .navbar-collapse{
@@ -63,7 +67,7 @@
         margin-left: 2.8rem;
     }
     .nav-link{
-        color: var(--black-color);
+        color:white;
         font-size: 1.7rem;
         font-weight: 500!important;
         opacity: 0.8;

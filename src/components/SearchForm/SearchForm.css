@@ -1,9 +1,10 @@
+
 .search-form{
     width: 100%;
     max-width: 680px;
 }
 .search-form-elem{
-    padding: 1.4rem 2.8rem;
+  
     border-radius: 3.8rem;
 }
 .search-form-elem .form-control{
@@ -12,4 +13,20 @@
 }
 .search-form-elem .form-control::placeholder{
     opacity: 0.9;
+}
+.inp{  margin-top: 5rem;
+    border: 1px solid black;
+    width: 50rem;
+    
+    padding: 0px;
+}
+.icon{
+   padding-left: 1rem ;
+}
+.search-form-elem button{
+    margin-top: 5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 194, 146);
+  padding: 1rem;
+    border: 1px solid grey;
 }
